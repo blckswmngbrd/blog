@@ -18,4 +18,6 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
+markdown:            kramdown
+highlighter:         rouge
 version:             1.0.0
