@@ -21,4 +21,4 @@ Due to the Affordable Care Act enacted by President Barack Obama on March 23, 20
 
 and tax credits, offered to small businesses via the Small Business Health Options Program (SHOP), many employers still find the mandate to be a financial burden.  So much of a burden that many businesses, large and small, have laid off or re-purposed employees, reduced employee hours (full-time to part-time), or relocated operations to states or even other countries to offset the cost incurred due to the health insurance mandate.   
 
-The process and code associated with the analysis can be found in the [**blckswmngbrd repo**(https://github.com/blckswmngbrd/Obamacare-Benefit-Analysis).
+The process and code associated with the analysis can be found in the [**blckswmngbrd repo**.](https://github.com/blckswmngbrd/Obamacare-Benefit-Analysis)
