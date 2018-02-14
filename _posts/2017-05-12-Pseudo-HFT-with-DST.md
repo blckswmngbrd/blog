@@ -8,11 +8,12 @@ tags:
   - Dempster-Shafer
   - 'C#'
   - Interactive_Brokers
+  - Ongoing Project
 ---
 
 ## Trading 10 to 20 second timeframes with the Dempster-Shaffer Theory and Interactive Brokers
 
-Affectionately known as the DST Market Mind, a "High Frequency" style trading algo based on the Dempster-Shafer fusion theory in C# using the Interactive Brokers API, was concieved at the Illinois Institute of Technology-Stuart School of Business by Randall Campbell and Francisco Hernandez.  
+Affectionately known as the DST Market Mind, a "High Frequency" style trading automated trading system based on the Dempster-Shafer fusion theory, was concieved at the Illinois Institute of Technology-Stuart School of Business by Randall Campbell and Francisco Hernandez.  
 
 ## Understanding The Dempster-Shaffer Theory 
 
@@ -73,7 +74,7 @@ etc..
 
 • Utilize's Interactive Brokers TWS C# API
 
-• Fully functional GUI
+• Fully functional and modern GUI
 
 • Estimated refresh rate: 5-15 seconds
 
