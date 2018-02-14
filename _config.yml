@@ -2,6 +2,8 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
+markdown:            kramdown
+highlighter:         rouge
 
 # Setup
 title:               blckswmngbrd
@@ -18,6 +20,5 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
-markdown:            kramdown
-highlighter:         rouge
+
 version:             1.0.0
