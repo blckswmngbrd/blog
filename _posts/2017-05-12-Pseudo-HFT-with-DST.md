@@ -23,7 +23,7 @@ The theory allows one to combine evidence from different sources and arrive at a
 (represented by a mathematical object called belief function) that takes into account all the available evidence. 
 
 
-![DempsterEquation.png]({{site.baseurl}}/_posts/DempsterEquation.png)
+![DempsterEquation.png]({{site.url}}{{site.baseurl}}/_posts/DempsterEquation.png)
 
 
 [(wiki)](https://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory)
@@ -84,7 +84,7 @@ Below is a detailed diagram that illustrates the logic of the DST Market Mind sy
 
 
 
-![Tradeflow.png]({{site.baseurl}}/_posts/Tradeflow.png)
+![Tradeflow.png]({{site.url}}{{site.baseurl}}/_posts/Tradeflow.png)
 
 
 
