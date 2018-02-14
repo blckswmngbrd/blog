@@ -48,6 +48,7 @@ m1[12] <- 1- do.call(sum,m1[1:11])
 
 '''
 
+										Click here for the [R(prototype)](https://github.com/blckswmngbrd/Dempster-Shafer-Trading-Algo/blob/master/DST_Early_Prototype.r) and [C#(working demo)](https://github.com/blckswmngbrd/Dempster-Shafer-Trading-Algo/tree/master/.vs/WindowsFormsApplication3) code 
 
 ## The Strategies Major Elements  
 
