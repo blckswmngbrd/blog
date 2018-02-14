@@ -31,8 +31,8 @@ The goal is to used the Dempter-Shafer Theory (DST) to combine the data from mul
 information to obtain a competitive advantage in entering/exiting positions in the market over other partcipants. Each mass function encapsulates data from a parameter ( Event based Moving Average, full book Level 2 data). Mass functions are then combined using Depster’s rule of combination to provide a information about the market, it's participants actions, and help informed buy/sell and sizing decisions. 
 
 ## Early Prototype of the code to create the Mass Functions  
-{% highlight r%}
 
+'''r
 
 m1<-c()   
     
@@ -46,8 +46,7 @@ m1[i]  <- integrate(integrand,lower = 2*i -13, upper = 2*i - 11)
 
 m1[12] <- 1- do.call(sum,m1[1:11]) 
 
-
-{% endhighlight %}
+'''
 
 
 ## The Strategies Major Elements  
