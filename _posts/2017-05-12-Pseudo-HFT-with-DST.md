@@ -42,7 +42,7 @@ information to obtain a competitive advantage in entering/exiting positions in t
 
 	for(i in 1:11){integrand<-function(x){dlogis(x,2,param_m1)}
 
-	m1[i] <- integrate(integrand,lower = 2*i -13, upper = 2*i - 11)
+	m1[i] <- integrate(integrand,lower = 2*i -13, upper = 2*i-11)
 
 	m1[12] <- 1- do.call(sum,m1[1:11]) 
 ```
