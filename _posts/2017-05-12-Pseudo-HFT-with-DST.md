@@ -34,17 +34,17 @@ information to obtain a competitive advantage in entering/exiting positions in t
 ## Early Prototype of the code to create the Mass Functions  
 
 ```r
-	m1 = c()       
+	m1 <- c()       
 
-	m1[0]= 0
+	m1[0]<- 0
 	
-	x = seq(-10,10,by=.10)
+	x <- seq(-10,10,by=.10)
 
 	for(i in 1:11){integrand<-function(x){dlogis(x,2,param_m1)}
 
-	m1[i] = integrate(integrand,lower = 2*i -13, upper = 2*i - 11)
+	m1[i] <- integrate(integrand,lower = 2*i -13, upper = 2*i - 11)
 
-	m1[12] = 1- do.call(sum,m1[1:11]) 
+	m1[12] <- 1- do.call(sum,m1[1:11]) 
 ```
 
 
