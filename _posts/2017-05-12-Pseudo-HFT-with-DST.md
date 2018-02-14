@@ -48,7 +48,7 @@ m1[i]  <- integrate(integrand,lower = 2*i -13, upper = 2*i - 11)
 
 m1[12] <- 1- do.call(sum,m1[1:11]) 
  
-{% endhiglight %}
+{% endhighlight %}
 ```
 
 
