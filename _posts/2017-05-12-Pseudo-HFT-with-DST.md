@@ -13,7 +13,7 @@ tags:
 
 ## Trading 10 to 20 second timeframes with the Dempster-Shaffer Theory and Interactive Brokers
 
-Affectionately known as the DST Market Mind, a "High Frequency" style trading automated trading system based on the Dempster-Shafer fusion theory, was concieved at the Illinois Institute of Technology-Stuart School of Business by Randall Campbell and Francisco Hernandez.  
+Affectionately known as the DST Market Mind, a "High Frequency" style automated trading system based on the Dempster-Shafer fusion theory, was concieved at the Illinois Institute of Technology-Stuart School of Business by Randall Campbell and Francisco Hernandez.  
 
 ## Understanding The Dempster-Shaffer Theory 
 
