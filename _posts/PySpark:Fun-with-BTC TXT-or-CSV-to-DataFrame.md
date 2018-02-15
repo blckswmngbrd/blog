@@ -96,7 +96,7 @@ category: PySpark
 ```Py
 	BTC_df.withColumn('%DifVol',(BTC_df.Volume - meanVol)/meanVol).withColumn('Range',BTC_df.High-BTC_df.Low).select('Date','Range','%DifVol').show(5)
 ```
-##Using traditional SQL methods of methods of extracting and manipulating data can be used as well.
+##Using traditional SQL methods of extracting and manipulating data can be used as well.
 
 ##Below the Date and Closing prices of when BTC was above the [VWAP(Volume Weighted Average Price)](https://en.wikipedia.org/wiki/Volume-weighted_average_price), above the Open, and the difference between the High minus Low divided by the Low was greater than 25%.
 
