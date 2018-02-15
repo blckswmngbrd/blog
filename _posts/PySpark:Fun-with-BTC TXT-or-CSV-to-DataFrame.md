@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 category: PySpark
 ---
@@ -98,6 +98,9 @@ category: PySpark
 ```
 ##Using traditional SQL methods of extracting and manipulating data can be used as well.
 
+```Py
+	BTC_df.registerTempTable("coins")
+```
 ##Below the Date and Closing prices of when BTC was above the [VWAP(Volume Weighted Average Price)](https://en.wikipedia.org/wiki/Volume-weighted_average_price), above the Open, and the difference between the High minus Low divided by the Low was greater than 25%.
 
 ```Py
