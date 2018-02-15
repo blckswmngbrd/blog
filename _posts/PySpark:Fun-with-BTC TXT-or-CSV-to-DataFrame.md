@@ -3,7 +3,7 @@ published: false
 layout: post
 ---
 
-##PySpark provides users with the choice to convert RDD's(Resilient Distributed Dataset) to DataFrame's and manipulate data in a manner similar to SQL. Below is quick exercise highlighting the ease of the conversion.
+##PySpark provides users with the choice to convert [RDD's(Resilient Distributed Dataset)](https://spark.apache.org/docs/0.6.1/api/core/spark/RDD.html) to DataFrame's and manipulate data in a manner similar to SQL. Below is quick exercise highlighting the ease of the conversion.
 
 ```Py
 	from pyspark.sql.types import *
@@ -22,8 +22,9 @@ layout: post
 ```
 
 ##Load data from existing .txt file.
-##Data Being Used is the BTC Global Price Index data available via quandl
+##Data Being Used is the BTC Global Price Index data available via [quandl](https://www.quandl.com/search?query=)
 ##for .txt files
+
 ```Py 
 	data_file = '/home/riverstone/Downloads/NW_BTC_Global_Price_INDX'
 ```
@@ -44,6 +45,7 @@ layout: post
 ```
 
 ##Create the DataFrame and Check the data and schema for good measure
+
 ```Py
 	BTC_df = BTC_raw.toDF()
 	BTC_df.show()
@@ -95,7 +97,7 @@ layout: post
 ```
 ##Using traditional SQL methods of methods of extracting and manipulating data can be used as well.
 
-##Below the Date and Closing prices of when BTC was above the VWAP(Volume Weighted Average Price), above the Open, and the difference between the High minus Low divided by the Low was greater than 25%.
+##Below the Date and Closing prices of when BTC was above the [VWAP(Volume Weighted Average Price)](https://en.wikipedia.org/wiki/Volume-weighted_average_price), above the Open, and the difference between the High minus Low divided by the Low was greater than 25%.
 
 ```Py
 	sqlContext.sql('''SELECT Date, Close FROM coins WHERE Close > VWAP AND Close > Open AND (High-Low)/Low> 0.25 ''').show()
