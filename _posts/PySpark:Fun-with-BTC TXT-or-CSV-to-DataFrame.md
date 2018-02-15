@@ -1,6 +1,7 @@
 ---
 published: false
 layout: post
+category: PySpark
 ---
 
 ##PySpark provides users with the choice to convert [RDD's(Resilient Distributed Dataset)](https://spark.apache.org/docs/0.6.1/api/core/spark/RDD.html) to DataFrame's and manipulate data in a manner similar to SQL. Below is quick exercise highlighting the ease of the conversion.
